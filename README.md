@@ -102,8 +102,6 @@ mom/
 │   ├── message_queue.py       # Estrutura de filas e tópicos
 ├── client/
 │   ├── user_client.py         # Cliente por terminal
-│   ├── publisher.py           # Cliente que publica (extensível)
-│   ├── subscriber.py          # Cliente que assina (extensível)
 ├── common/
 │   └── protocol.py            # Protocolo de comunicação
 ├── gui/
