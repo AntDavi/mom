@@ -4,7 +4,7 @@ from broker import broker_server
 from client import user_client
 
 if __name__ == "__main__":
-    modo = input("Digite 'b' para iniciar Broker ou 'c' para Cliente: ").strip().lower()
+    modo = input("Digite 'b' para iniciar Broker ou 'c' para Cliente é massa: ").strip().lower()
     if modo == 'b':
         broker_server.start()
     elif modo == 'c':
